@@ -66,8 +66,7 @@ def look(win_lose)
   puts "0(上)1(下)2(左)3(右)"
   finished = false
   case_num = $stdin.gets.chomp.to_i
-  random_num = rand(0..3)
-  
+  random_num = rand(0..3)  
   puts_look("あなた", case_num)
   puts_look("相手", random_num)
   
