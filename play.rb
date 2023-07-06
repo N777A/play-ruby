@@ -24,7 +24,6 @@ def puts_look(who, num)
   end
 end
 
-
 # じゃんけん
 def janken
   puts "じゃんけん♪"
